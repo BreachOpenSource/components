@@ -2,9 +2,16 @@
 A Roblox Studio plugin to drag & drop UI components and apply changes in a second, similar to packages, but 10x better & faster.\
 Made with [Rojo](https://github.com/rojo-rbx/rojo)
 
+If you're familiar with React, you will already know this concept by heart. You create the frame, button or any UI object you want to make a component, open the plugin, press new, select your object, and click save. To use your component, simply click on it and it will be inserted.
+
+To edit your components, press the Edit button and select your component. The component will be automatically inserted into a new ScreenGui in StarterGui. Edit it how you want. When you're done, click apply changes. Your changes will now be replicated to all components in your game.
+
 ## Installation
 
 ### 1. Roblox Creator Store
+
+**Download the plugin**\
+https://create.roblox.com/store/asset/96401100901795/Components
 
 ### 2. Local plugin
 
