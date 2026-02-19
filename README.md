@@ -13,10 +13,24 @@ To edit your components, press the Edit button and select your component. The co
 **Download the plugin**\
 https://create.roblox.com/store/asset/96401100901795/Components
 
-### 2. Local plugin
+### 2. Local plugin (ready to use)
 
 > [!WARNING]
-> Your local plugin will not auto update when a new version is released. If you are a casual user and won't be editing the code of the plugin, we highly recommend downloading it from the Creator Store.
+> Your local plugin will not auto update when a new version is released.
+
+1. **Install the plugin file**\
+https://github.com/BreachOpenSource/components/releases/local
+
+2. **Add your plugin to Roblox Studio**\
+   Open any place, go to the top and press `Plugins`\
+   Click on `Plugins Folder`\
+   Drag and drop the plugin file from where you saved it and place it in the plugins folder\
+   The plugin will be automatically added in the `Plugins` section of Studio, but in some cases, you may need to restart Studio for changes to apply
+
+### 3. Local plugin (via Rojo)
+
+> [!WARNING]
+> Your local plugin will not auto update when a new version is released. If you are a casual user and won't be editing the code of the plugin, we highly recommend downloading it from the Creator Store. If you prefer a local plugin and will not be editing the code of the plugin, [click here](https://github.com/BreachOpenSource/components/releases/local) to get the latest release
 
 1. **Build the place with Rojo**\
 To build the place from scratch, use:\
@@ -34,11 +48,11 @@ Right click on the `Components` folder and press `Save / Export` > `Save as Loca
 
 ## Set it up with Rojo
 
-Since the plugin was made with Rojo, you can clone the repository and start editing it yourself. If you do plan on making changes, please help us and other users out by creating a pull request if your change could be useful for others. It helps us a lot.
-
+Since the plugin was made with Rojo, you can clone the repository and start editing it yourself. If you do plan on making changes, please help us and other users out by creating a pull request if your change could be useful for others. It helps us a lot.\
+\
 To build the place from scratch, use:\
-`rojo build -o "Components.rbxl"`
+`rojo build -o "Components.rbxl"`\
 Next, open Components.rbxl in Roblox Studio and start the Rojo server:\
-`rojo serve`
-
+`rojo serve`\
+\
 Take a look at the [Rojo documentation](https://rojo.space/docs/v7/) for more information on how to get started.
